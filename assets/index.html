@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container-one" id="startpage">
+        <h1>Welcome to Your Coding Quiz!</h1>
+    </div>
+
+    <main>
+        <p>Welcome to the coding challenge! Do YOU have what it takes? Take the code challenge now!</p>
+
+        <div class="info-title">
+            <span>Test your skills with this challenge!</span>
+            <ol class="rules">
+                <li>You have 90 seconds per question!</li>
+                <li>Selected answers cannot be unselected.</li>
+                <li>Options become unavailable if time expires.</li>
+                <li>Your tally will be presented once you're done!</li>
+            </ol>
+        </div>
+
+        <div class="quiz">
+            <div class="timer"></div>
+            <div class="timer-text">Time Remaining</div>
+            <div class="counter">90</div>
+        </div>
+        <div id='questions-section' class='hide'>
+            <div class="container-two" id="containerTwo">
+                <p id= "question" >question</p>
+                <button id = 'btn1'class="answerBtn">Answer1</button>
+                <button id = 'btn2'class="answerBtn">Answer2</button>
+                <button id = 'btn3'class="answerBtn">Answer3</button>
+                <button id = 'btn4'class="answerBtn">Answer4</button>
+            </div>
+            <div id="answers-section"></div>
+        </div>
+        </div>
+
+        <div class="initiate">
+            <button id="restart-btn" class="restart-btn btn">Take the Quiz</button>
+            <button id="quit-btn" class="quit-btn btn hide">Exit the Game</button>
+        </div>
+        Score:
+        <div id="score">
+            
+        </div>
+        <div id="initialsDiv" class="hide">
+            <div><input id="initials"></input></div>
+            <button id="initialsButton">Save Initials</button>
+        </div>
+
+        <div id="scoreboard">
+            <table style="width:100%">
+                <tr>
+                <th>High Score Leaderboard</th>
+                </tr>
+                <tr>
+                <th>Initials</th>
+                <th>Score</th>
+                </tr>
+                <tr>
+                <td id="initialsStorage"></td>
+                <td id="scoreStorage"></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!-- <section id="gameOver" class="hide">
+            <h2>The game has ended!</h2>
+            <div id="finalScore">Your final score is:</div>
+            <form>
+                <input type="text" size="40" placeholder="Enter your initials" name="initials" id="initials" />
+            </form>
+            <button id="submitScoreBtn">Submit Score</button>
+        </section> -->
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

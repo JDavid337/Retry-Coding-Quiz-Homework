@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(194, 187, 178);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-one {
+    display:block;
+    margin: 80px auto;
+    text-align: center;
+    transition: 0.3s;
+    width: 60vw;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.rules{
+    display: none;
+}
+
+.title {
+    text-align: center;
+}
+
+a {
+    position: relative;
+    font-size: 30px;
+}
+
+
+
+.btn .btn-dark {
+    background-color: rgb(red, green, blue);
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    color: black;
+    border-bottom: 30px #879274;
+    font-size: 50px;
+}
+
+.button {
+    background-color: rgb(164, 128, 197);
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    transition-duration: 0.15s;
+    margin-top: 0.6em;
+}
+
+.button .reset-button{
+    color: cornflowerblue;
+    background: darkblue;
+}
+
+.button .reset-button:hover{
+    color: darkgrey;
+    background: darkslateblue;
+}
+
+.buttons .button.quit{
+    color: cornflowerblue;
+    background: darkblue;
+}
+
+.button .button.quit:hover{
+    color: darkgrey;
+    background: darkslateblue;
+}
+
+.timer {
+    height: 40px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    flex: content;
+    justify-content: center;
+}
+
+.timer-text {
+    padding: 20px;
+}
+
+.container-two {
+    width: 800px;
+    max-width: 80%;
+    background-color: floralwhite;
+    border-radius: 5px;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: none;
+    gap: 15px;
+    margin: 20px;
+}
+
+.btn:hover {
+    border-color: green;
+}
+
+/*reset button */
+.button.restart {
+    font-size: 16px;
+    height: 30px;
+    line-height: 8px;
+    margin-top: 20px;
+}
+
+.button.quit {
+    font-size: 16px;
+    height: 30px;
+    line-height: 8px;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
